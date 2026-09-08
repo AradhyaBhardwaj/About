@@ -1,0 +1,1353 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#070912">
+  <meta name="description" content="Aradhya Bhardwaj — MCA student, software developer and data analytics enthusiast.">
+  <title>Aradhya Bhardwaj — Developer Portfolio</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  
+
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- =====================================================
+       UI
+  ===================================================== -->
+
+  <div id="progress"></div>
+
+  <div id="particles"></div>
+
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <div class="grid"></div>
+  <div class="noise"></div>
+  <div class="scanlines"></div>
+
+
+  <!-- =====================================================
+       NAVBAR
+  ===================================================== -->
+
+  <nav class="navbar">
+
+    <div class="container-fluid px-2">
+
+      <div class="d-flex align-items-center justify-content-between w-100">
+
+        <a href="#home" class="brand fs-5">
+          AB<span class="brand-dot">. Portfolio</span>
+        </a>
+
+        <div class="nav-desktop d-flex align-items-center gap-1">
+
+          <a class="nav-link px-3" href="#about">
+            About
+          </a>
+
+          <a class="nav-link px-3" href="#skills">
+            Skills
+          </a>
+
+          <a class="nav-link px-3" href="#experience">
+            Experience
+          </a>
+
+          <a class="nav-link px-3" href="#projects">
+            Projects
+          </a>
+
+          <a class="nav-link px-3" href="#contact">
+            Contact
+          </a>
+
+        </div>
+
+        <div class="status-pill">
+          <span class="status-dot"></span>
+          Open to opportunities
+        </div>
+
+      </div>
+
+    </div>
+
+  </nav>
+
+
+  <!-- =====================================================
+       MAIN
+  ===================================================== -->
+
+  <main id="home">
+
+
+    <!-- ===================================================
+         HERO
+    =================================================== -->
+
+    <section class="hero">
+
+      <div class="orb one"></div>
+      <div class="orb two"></div>
+
+      <div class="container">
+
+        <div class="hero-corner"></div>
+
+        <div class="row align-items-center g-4 g-xl-5">
+
+
+          <!-- =============================================
+               LEFT
+          ============================================== -->
+
+          <div class="col-lg-5">
+
+            <div class="hero-copy">
+
+
+              <!-- INFO CARD -->
+
+              <div class="hero-info-card reveal">
+
+                <h1 class="name">
+                  Aradhya Bhardwaj
+                </h1>
+
+                <div class="tagline">
+                  Full Stack Developer 
+                </div>
+
+                <p class="info-copy">
+                  Focused on software development,
+                  data analytics and practical web technologies.
+                </p>
+
+                <div class="expertise">
+
+                  <span class="expertise-item">
+                    Python
+                  </span>
+
+                  <span class="expertise-item">
+                    Java
+                  </span>
+
+                  <span class="expertise-item">
+                    Web Technologies
+                  </span>
+
+                  <span class="expertise-item">
+                    SQL
+                  </span>
+
+                  <span class="expertise-item">
+                    Generative AI
+                  </span>
+
+                </div>
+
+              </div>
+
+
+              <!-- EYEBROW -->
+
+              <div
+                class="eyebrow reveal"
+                style="margin-bottom:18px"
+              >
+                Software Developer · Tech Enthusiast
+              </div>
+
+
+              <!-- HERO TITLE -->
+
+              <h2
+                class="reveal delay-1"
+                style="
+                  font-family:'Space Grotesk';
+                  font-size:2.1rem;
+                  letter-spacing:-.04em;
+                  margin:0 0 18px;
+                  color:#fff;
+                  line-height:1.2
+                "
+              >
+                Crafting
+                <span class="gradient-text">
+                  elegant solutions
+                </span>
+              </h2>
+
+
+              <!-- HERO DESCRIPTION -->
+
+              <p
+                class="hero-sub reveal delay-2"
+                style="
+                  margin-bottom:28px;
+                  font-size:1rem
+                "
+              >
+                I build scalable systems with
+                <span class="typed" id="typed"></span>
+                <span class="cursor"></span>
+                — turning ideas into impact through code,
+                data and design thinking.
+              </p>
+
+
+              <!-- BUTTONS -->
+
+              <div
+                class="d-flex flex-wrap gap-3 reveal delay-3"
+                style="margin-bottom:24px"
+              >
+
+                <a
+                  class="btn-future magnetic"
+                  href="#projects"
+                >
+                  <i class="bi bi-arrow-down-right"></i>
+                  Explore my work
+                </a>
+
+                <a
+                  class="btn-ghost magnetic"
+                  href="assets/Aradhya_Bhardwaj_Resume.pdf"
+                  download
+                >
+                  <i class="bi bi-download"></i>
+                  Download CV
+                </a>
+
+              </div>
+
+
+              <!-- RAIL -->
+
+              <div class="hero-rail reveal delay-3">
+                <span>
+                  BUILD / DEBUG / SHIP
+                </span>
+              </div>
+
+
+              <!-- SOCIALS -->
+
+              <div
+                class="d-flex gap-2"
+                style="margin-top:20px"
+              >
+
+                <a
+                  class="social"
+                  href="https://github.com/AradhyaBhardwaj"
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="GitHub"
+                >
+                  <i class="bi bi-github"></i>
+                </a>
+
+                <a
+                  class="social"
+                  href="https://in.linkedin.com/in/aradhya-bhardwaj-b18456262"
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="LinkedIn"
+                >
+                  <i class="bi bi-linkedin"></i>
+                </a>
+
+                <a
+                  class="social"
+                  href="mailto:aradhyabhardwaj121@gmail.com"
+                  aria-label="Email"
+                >
+                  <i class="bi bi-envelope"></i>
+                </a>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <!-- =============================================
+               RIGHT / PHOTO
+          ============================================== -->
+
+          <div class="col-lg-6">
+
+            <div class="hero-photo-column">
+
+              <div class="hero-photo-wrap reveal delay-2">
+
+
+                <!-- Orbit -->
+
+                <div
+                  class="photo-orbit a"
+                  aria-hidden="true"
+                ></div>
+
+                <div
+                  class="photo-orbit b"
+                  aria-hidden="true"
+                ></div>
+
+
+                <!-- Particle Layer -->
+
+                <div
+                  id="photoParticles"
+                  aria-hidden="true"
+                ></div>
+
+
+                <div
+                  class="photo-particle-core"
+                  aria-hidden="true"
+                ></div>
+
+
+                <!-- =======================================
+                     ACTUAL PHOTO
+
+                     IMPORTANT:
+                     Keep your photo here:
+                     assets/profile.jpg
+                ======================================== -->
+
+                <div class="photo-card tilt">
+
+                  <img
+                    id="profileImage"
+                    src="./assets/profile.jpg"
+                    alt="Aradhya Bhardwaj"
+                  >
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ===================================================
+         ABOUT
+    ==================================================== -->
+
+    <section id="about">
+
+      <div class="container">
+
+        <div class="row g-4 align-items-stretch">
+
+          <div class="col-lg-7 reveal">
+
+            <div class="glass about-card h-100">
+
+              <div class="section-kicker">
+                01 / Profile
+              </div>
+
+              <h2 class="section-title">
+                Building the
+                <br>
+                <span class="gradient-text">
+                  next version.
+                </span>
+              </h2>
+
+              <p>
+                I'm an MCA student at Graphic Era University
+                with a BCA background and hands-on exposure to
+                software development, data analytics and web
+                technologies. I enjoy taking a messy real-world
+                problem, breaking it into systems, and turning
+                it into something people can actually use.
+              </p>
+
+              <p class="mb-3">
+                My current toolkit spans:
+              </p>
+
+              <div class="d-flex flex-wrap gap-2 mb-0">
+
+                <span class="chip">Java</span>
+                <span class="chip">Python</span>
+                <span class="chip">C++</span>
+                <span class="chip">C</span>
+                <span class="chip">SQL</span>
+                <span class="chip">DBMS</span>
+                <span class="chip">Django</span>
+                <span class="chip">Bootstrap</span>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <div class="col-lg-5">
+
+            <div class="row g-3 h-100">
+
+              <div class="col-6 reveal delay-1">
+
+                <div class="stat h-100">
+
+                  <div
+                    class="stat-num counter"
+                    data-target="8.28"
+                  >
+                    0
+                  </div>
+
+                  <div class="stat-label">
+                    BCA CGPA / 10
+                  </div>
+
+                </div>
+
+              </div>
+
+
+              <div class="col-6 reveal delay-2">
+
+                <div class="stat h-100">
+
+                  <div
+                    class="stat-num counter"
+                    data-target="2"
+                  >
+                    0
+                  </div>
+
+                  <div class="stat-label">
+                    Internships
+                  </div>
+
+                </div>
+
+              </div>
+
+
+              <div class="col-6 reveal delay-2">
+
+                <div class="stat h-100">
+
+                  <div
+                    class="stat-num counter"
+                    data-target="3"
+                  >
+                    0
+                  </div>
+
+                  <div class="stat-label">
+                    Featured projects
+                  </div>
+
+                </div>
+
+              </div>
+
+
+              <div class="col-6 reveal delay-3">
+
+                <div class="stat h-100">
+
+                  <div
+                    class="stat-num counter"
+                    data-target="8"
+                  >
+                    0
+                  </div>
+
+                  <div class="stat-label">
+                    Core technologies
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ===================================================
+         EDUCATION
+    ==================================================== -->
+
+    <section id="education">
+
+      <div class="container">
+
+        <div class="mb-5 reveal">
+
+          <div class="section-kicker">
+            04 / Education
+          </div>
+
+          <h2 class="section-title">
+            Academic
+            <span class="gradient-text">
+              journey.
+            </span>
+          </h2>
+
+        </div>
+
+
+        <div class="row g-5 align-items-center">
+
+
+          <div class="col-lg-7">
+
+            <div class="timeline">
+
+              <div class="timeline-item reveal">
+
+                <div class="time">
+                  2025 — Present
+                </div>
+
+                <div class="role">
+                  Master of Computer Applications (MCA)
+                </div>
+
+                <div class="company">
+                  Graphic Era University, Dehradun
+                </div>
+
+                <ul>
+                  <li>
+                    Expanding expertise in software development,
+                    data analytics and emerging technologies.
+                  </li>
+                </ul>
+
+              </div>
+
+
+              <div class="timeline-item reveal delay-1">
+
+                <div class="time">
+                  2022 — 2025
+                </div>
+
+                <div class="role">
+                  Bachelor of Computer Applications (BCA)
+                </div>
+
+                <div class="company">
+                  Teerthanker Mahaveer University, Moradabad
+                </div>
+
+                <ul>
+                  <li>
+                    CGPA: 8.28/10 · Specialized in software
+                    development and computer fundamentals.
+                  </li>
+                </ul>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <div class="col-lg-5">
+
+            <div class="edu-tech glass reveal delay-2">
+
+              <div class="edu-tech-head">
+
+                <span class="section-kicker">
+                  STACK IN MOTION
+                </span>
+
+                <span class="edu-pulse"></span>
+
+              </div>
+
+
+              <div class="edu-orbit">
+
+                <div class="edu-core">
+
+                  <i class="bi bi-mortarboard-fill"></i>
+
+                  <small>
+                    MCA
+                  </small>
+
+                </div>
+
+
+                <div class="edu-icon i1">
+                  <i class="bi bi-filetype-java"></i>
+                </div>
+
+                <div class="edu-icon i2">
+                  <i class="bi bi-filetype-py"></i>
+                </div>
+
+                <div class="edu-icon i3">
+                  <i class="bi bi-diagram-3-fill"></i>
+                </div>
+
+                <div class="edu-icon i4">
+                  <i class="bi bi-database-fill"></i>
+                </div>
+
+                <div class="edu-icon i5">
+                  <i class="bi bi-github"></i>
+                </div>
+
+                <div class="edu-icon i6">
+                  <i class="bi bi-bootstrap-fill"></i>
+                </div>
+
+              </div>
+
+
+              <div class="edu-tech-foot">
+
+                <span>JAVA</span>
+                <span>PYTHON</span>
+                <span>DJANGO</span>
+                <span>DBMS</span>
+                <span>GIT</span>
+                <span>BOOTSTRAP</span>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ===================================================
+         SKILLS
+    ==================================================== -->
+
+    <section id="skills">
+
+      <div class="container">
+
+        <div class="mb-5 reveal">
+
+          <div class="section-kicker">
+            03 / Arsenal
+          </div>
+
+          <h2 class="section-title">
+            Tools I
+            <span class="gradient-text">
+              think with.
+            </span>
+          </h2>
+
+          <p class="section-copy">
+            A practical stack built around programming
+            fundamentals, data and software delivery.
+          </p>
+
+        </div>
+
+
+        <div class="row g-3">
+
+
+          <div class="col-md-6 col-lg-3 reveal">
+
+            <div class="skill">
+
+              <i class="bi bi-code-slash"></i>
+
+              <h5>
+                Programming
+              </h5>
+
+              <p>
+                Java · Python · C++ · C · SQL
+              </p>
+
+            </div>
+
+          </div>
+
+
+          <div class="col-md-6 col-lg-3 reveal delay-1">
+
+            <div class="skill">
+
+              <i class="bi bi-database"></i>
+
+              <h5>
+                Data & DBMS
+              </h5>
+
+              <p>
+                DBMS concepts, analytics workflows
+                and data visualization.
+              </p>
+
+            </div>
+
+          </div>
+
+
+          <div class="col-md-6 col-lg-3 reveal delay-2">
+
+            <div class="skill">
+
+              <i class="bi bi-window-stack"></i>
+
+              <h5>
+                Web
+              </h5>
+
+              <p>
+                Web development, WordPress and
+                responsive UI thinking.
+              </p>
+
+            </div>
+
+          </div>
+
+
+          <div class="col-md-6 col-lg-3 reveal delay-3">
+
+            <div class="skill">
+
+              <i class="bi bi-bar-chart-line"></i>
+
+              <h5>
+                Product Thinking
+              </h5>
+
+              <p>
+                Project management, software quality
+                and problem solving.
+              </p>
+
+            </div>
+
+          </div>
+
+
+          <div class="col-md-6 col-lg-3 reveal">
+
+            <div class="skill">
+
+              <i class="bi bi-diagram-3"></i>
+
+              <h5>
+                Django
+              </h5>
+
+              <p>
+                Python web applications, role-based
+                dashboards, forms and authentication.
+              </p>
+
+            </div>
+
+          </div>
+
+
+          <div class="col-md-6 col-lg-3 reveal delay-1">
+
+            <div class="skill">
+
+              <i class="bi bi-bar-chart"></i>
+
+              <h5>
+                Web Analytics
+              </h5>
+
+              <p>
+                Chart.js, Bootstrap, HTML, CSS and
+                JavaScript for interactive interfaces.
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ===================================================
+         EXPERIENCE
+    ==================================================== -->
+
+    <section id="experience">
+
+      <div class="container">
+
+        <div class="mb-5 reveal">
+
+          <div class="section-kicker">
+            03 / Experience
+          </div>
+
+          <h2 class="section-title">
+            Where I've
+            <span class="gradient-text">
+              worked.
+            </span>
+          </h2>
+
+        </div>
+
+
+        <div class="timeline">
+
+
+          <div class="timeline-item reveal">
+
+            <div class="time">
+              Aug 2024 — Oct 2024
+            </div>
+
+            <div class="role">
+              Generation Green Campaign Intern
+            </div>
+
+            <div class="company">
+              AICTE · OPPO India
+            </div>
+
+            <ul>
+
+              <li>
+                Worked around sustainability development
+                and environmental conservation initiatives.
+              </li>
+
+              <li>
+                Strengthened presentation, negotiation and
+                public-speaking skills through campaign activities.
+              </li>
+
+              <li>
+                Contributed to green technology awareness
+                and sustainability practices.
+              </li>
+
+            </ul>
+
+          </div>
+
+
+          <div class="timeline-item reveal delay-1">
+
+            <div class="time">
+              Aug 2024 — Sep 2024
+            </div>
+
+            <div class="role">
+              Java Programming Intern
+            </div>
+
+            <div class="company">
+              CodSoft
+            </div>
+
+            <ul>
+
+              <li>
+                Worked on Java application development,
+                debugging and testing.
+              </li>
+
+              <li>
+                Gained exposure to Java frameworks and
+                software development practices.
+              </li>
+
+              <li>
+                Improved coding efficiency through
+                real-world project collaboration.
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ===================================================
+         PROJECTS
+    ==================================================== -->
+
+    <section id="projects">
+
+      <div class="container">
+
+        <div class="mb-5 reveal">
+
+          <div class="section-kicker">
+            05 / Selected work
+          </div>
+
+          <h2 class="section-title">
+            Projects with
+            <span class="gradient-text">
+              purpose.
+            </span>
+          </h2>
+
+          <p class="section-copy">
+            Real repositories, with the newest work
+            taking the lead.
+          </p>
+
+        </div>
+
+
+        <div class="row g-4">
+
+
+          <div class="col-lg-8 reveal">
+
+            <article class="project tilt">
+
+              <div class="project-num">
+                PROJECT / 001 · DJANGO
+              </div>
+
+              <h3>
+                School Management System
+              </h3>
+
+              <p>
+                A web-based academic management platform
+                built with Python and Django. It brings
+                administration, staff and student workflows
+                into role-based dashboards covering students,
+                staff, courses, attendance, results, leave
+                and feedback.
+              </p>
+
+              <div>
+
+                <span class="chip">Python</span>
+                <span class="chip">Django</span>
+                <span class="chip">SQLite</span>
+                <span class="chip">Bootstrap</span>
+                <span class="chip">JavaScript</span>
+                <span class="chip">Chart.js</span>
+
+              </div>
+
+              <a
+                class="project-link"
+                href="https://github.com/AradhyaBhardwaj/School-Management-System"
+                target="_blank"
+                rel="noreferrer"
+              >
+                View repository
+                <i class="bi bi-arrow-up-right"></i>
+              </a>
+
+            </article>
+
+          </div>
+
+
+          <div class="col-lg-4 reveal delay-1">
+
+            <article class="project tilt h-100">
+
+              <div class="project-num">
+                PROJECT / 002 · PYTHON
+              </div>
+
+              <h3>
+                Billing Software
+              </h3>
+
+              <p>
+                GUI-based retail billing and inventory
+                management for local business environments,
+                with automated billing, stock management,
+                reporting and sales analytics.
+              </p>
+
+              <div>
+
+                <span class="chip">Python</span>
+                <span class="chip">DBMS</span>
+                <span class="chip">Analytics</span>
+
+              </div>
+
+              <a
+                class="project-link"
+                href="https://github.com/AradhyaBhardwaj/Billing-Software"
+                target="_blank"
+                rel="noreferrer"
+              >
+                View repository
+                <i class="bi bi-arrow-up-right"></i>
+              </a>
+
+            </article>
+
+          </div>
+
+
+          <div class="col-lg-5 reveal">
+
+            <article class="project tilt h-100">
+
+              <div class="project-num">
+                PROJECT / 003 · JAVA
+              </div>
+
+              <h3>
+                CodSoft
+              </h3>
+
+              <p>
+                Java internship work covering application
+                development, debugging, testing and practical
+                software-development tasks.
+              </p>
+
+              <div>
+
+                <span class="chip">Java</span>
+                <span class="chip">OOP</span>
+                <span class="chip">Problem Solving</span>
+
+              </div>
+
+              <a
+                class="project-link"
+                href="https://github.com/AradhyaBhardwaj/CodSoft"
+                target="_blank"
+                rel="noreferrer"
+              >
+                View repository
+                <i class="bi bi-arrow-up-right"></i>
+              </a>
+
+            </article>
+
+          </div>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ===================================================
+         ACHIEVEMENTS
+    ==================================================== -->
+
+    <section id="achievements">
+
+      <div class="container">
+
+        <div class="mb-5 reveal">
+
+          <div class="section-kicker">
+            06 / Beyond code
+          </div>
+
+          <h2 class="section-title">
+            Discipline outside the
+            <span class="gradient-text">
+              IDE.
+            </span>
+          </h2>
+
+        </div>
+
+
+        <div class="row g-3">
+
+
+          <div class="col-md-6 col-lg-3 reveal">
+
+            <div class="achievement">
+
+              <div class="icon">
+                <i class="bi bi-trophy"></i>
+              </div>
+
+              <h5>
+                State Taekwondo
+              </h5>
+
+              <p>
+                Medalist
+              </p>
+
+            </div>
+
+          </div>
+
+
+          <div class="col-md-6 col-lg-3 reveal delay-1">
+
+            <div class="achievement">
+
+              <div class="icon">
+                <i class="bi bi-shield-check"></i>
+              </div>
+
+              <h5>
+                NCC
+              </h5>
+
+              <p>
+                Senior Under Officer
+              </p>
+
+            </div>
+
+          </div>
+
+
+          <div class="col-md-6 col-lg-3 reveal delay-2">
+
+            <div class="achievement">
+
+              <div class="icon">
+                <i class="bi bi-award"></i>
+              </div>
+
+              <h5>
+                Scout & Guide
+              </h5>
+
+              <p>
+                Active Member
+              </p>
+
+            </div>
+
+          </div>
+
+
+          <div class="col-md-6 col-lg-3 reveal delay-3">
+
+            <div class="achievement">
+
+              <div class="icon">
+                <i class="bi bi-star"></i>
+              </div>
+
+              <h5>
+                CBSE North Zonal
+              </h5>
+
+              <p>
+                Cricket Team Member
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ===================================================
+         CONTACT
+    ==================================================== -->
+
+    <section id="contact">
+
+      <div class="container">
+
+        <div class="glass contact-box reveal">
+
+          <div class="row align-items-center g-4">
+
+
+            <div class="col-lg-8">
+
+              <div class="section-kicker">
+                07 / Contact
+              </div>
+
+              <h2 class="section-title">
+                Have a problem
+                <br>
+                <span class="gradient-text">
+                  worth building?
+                </span>
+              </h2>
+
+              <a
+                class="contact-email"
+                href="mailto:aradhyabhardwaj121@gmail.com"
+              >
+                Let's talk
+                <i class="bi bi-arrow-up-right"></i>
+              </a>
+
+              <p class="section-copy mt-3 mb-0">
+                For internships, projects, collaborations
+                or technical conversations.
+              </p>
+
+            </div>
+
+
+            <div class="col-lg-4">
+
+              <div class="d-flex flex-column gap-2">
+
+                <a
+                  class="btn-future justify-content-center magnetic"
+                  href="mailto:aradhyabhardwaj121@gmail.com"
+                >
+                  <i class="bi bi-envelope"></i>
+                  Email me
+                </a>
+
+                <a
+                  class="btn-ghost justify-content-center magnetic"
+                  href="https://github.com/AradhyaBhardwaj"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i class="bi bi-github"></i>
+                  GitHub
+                </a>
+
+                <a
+                  class="btn-ghost justify-content-center magnetic"
+                  href="https://in.linkedin.com/in/aradhya-bhardwaj-b18456262"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i class="bi bi-linkedin"></i>
+                  LinkedIn
+                </a>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- =====================================================
+       FOOTER
+  ====================================================== -->
+
+  <footer>
+
+    <div class="container d-flex flex-wrap justify-content-between align-items-center gap-3">
+
+      <div>
+        © <span id="year"></span>
+        Aradhya Bhardwaj.
+        Built with intent.
+      </div>
+
+      <div>
+        Java · Python · Data · Web
+      </div>
+
+    </div>
+
+  </footer>
+
+
+  <!-- =====================================================
+       LIBRARIES
+  ====================================================== -->
+
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@3.8.1/tsparticles.bundle.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+  <script src=script.js></script>
+
+</body>
+</html>
+
+
